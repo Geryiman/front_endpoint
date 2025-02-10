@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551749514681",
+    "project_id": "pillpal-c96fc",
+    "storage_bucket": "pillpal-c96fc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551749514681:android:58a85995057c7035ee7268",
+        "android_client_info": {
+          "package_name": "com.gyman.saludapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-8s-GQt1Evcsl6xNyfxgoyWIpV8itZa4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

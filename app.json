@@ -1,0 +1,60 @@
+{
+  "expo": {
+  "name": "PillPal",
+  "slug": "salud-app",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "icon": "./assets/pilli.png",
+  "userInterfaceStyle": "light",
+  "newArchEnabled": true,
+  "splash": {
+    "image": "./assets/pilli.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  },
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "com.tuempresa.saludapp",
+    "infoPlist": {
+      "NSCameraUsageDescription": "Esta aplicación necesita acceso a la cámara para verificar alarmas.",
+      "NSLocationWhenInUseUsageDescription": "Esta aplicación necesita acceder a tu ubicación para personalizar servicios."
+    }
+  },
+  "android": {
+    "package": "com.gyman.saludapp",
+    "googleServicesFile": "./assets/google-services.json",
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/pilli.png",
+      "backgroundColor": "#ffffff"
+    },
+    "permissions": [
+      "NOTIFICATIONS",
+      "CAMERA",
+      "WRITE_EXTERNAL_STORAGE",
+      "ACCESS_FINE_LOCATION",
+      "ACCESS_COARSE_LOCATION",
+      "RECEIVE_BOOT_COMPLETED",
+      "FOREGROUND_SERVICE",
+      "SYSTEM_ALERT_WINDOW",
+      "ACCESS_NOTIFICATION_POLICY",
+      "POST_NOTIFICATIONS",
+      "VIBRATE"
+    ]
+  },
+  "notification": {
+    "icon": "./assets/pilli.png",
+    "color": "#000000",
+    "androidMode": "default",
+    "androidCollapsedTitle": "Nuevas notificaciones"
+  },
+  "extra": {
+    "eas": {
+      "projectId": "e16de124-fca0-4a17-b7b9-f65fe76f42e1"
+    }
+  },
+  "owner": "geryiman",
+  "web": {
+    "favicon": "./assets/pilli.png"
+  }
+}
+}
